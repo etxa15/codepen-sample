@@ -1,0 +1,111 @@
+body {
+    margin: 0;
+    padding: 00;
+    font-family: 'Roboto Condensed', sans-serif;
+}
+
+.header-content-wrapper {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+    height: 120px;
+    background-color: #000000;
+}
+
+.header-content-wrapper > .left-logo-column {
+    width: 200px;
+}
+
+.header-content-wrapper > .left-logo-column > img{
+    width: 200px;
+}
+
+.header-content-wrapper > .nav-center-column > .links-wrapper > .nav-link > p {
+    position: absolute;
+    color: #F4D95C;
+    font-weight: 700;
+    margin-top: -23px;
+}
+
+.header-content-wrapper > .nav-center-column > .links-wrapper {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 500px;
+}
+
+.header-content-wrapper > .nav-center-column > .links-wrapper > .nav-link > a{
+    color: #ffffff;
+    text-decoration: none;
+    font-weight: 700;
+    font-size: 1.2em;
+    transition: 0.5s;
+}
+
+.header-content-wrapper > .nav-center-column > .links-wrapper > .nav-link > a:hover {
+    color: #F4D95C;
+}
+
+.header-content-wrapper > .nav-center-column > .links-wrapper > .nav-link > .spark {
+    color: rgb(109, 109, 109);
+}
+
+.header-content-wrapper > .nav-center-column > .links-wrapper > .nav-link > .spark:hover {
+    color: rgb(109, 109, 109);
+}
+
+.header-content-wrapper > .nav-center-column > .links-wrapper > .nav-link > .fa-solid {
+    color: rgb(109, 109, 109);
+    margin-left: 5px;
+    transition: 0.8s;
+}
+
+.header-content-wrapper > .nav-center-column > .links-wrapper > .nav-link > .fa-solid:hover {
+    cursor: pointer;
+    color: #F4D95C;
+}
+
+.header-content-wrapper > .right-btn-column > .btn {
+    cursor: pointer;
+    padding: 15px 20px;
+    border-radius: 5px;
+    background-color: #484a52;
+    color: #ffffff;
+    font-size: 1em;
+    font-family: 'Roboto Condensed';
+    font-weight: 700;
+    letter-spacing: 1px;
+    transition: 0.5s;
+}
+
+.header-content-wrapper > .right-btn-column > .btn:hover {
+    color: #4BCE79;
+}
+
+.header-content-wrapper > .right-btn-column > .btn > .fa-solid {
+    color: #4BCE79;
+    margin-left: 3px;
+    transition: 0.5s;
+}
+
+.header-content-wrapper > .right-btn-column > .btn > .fa-solid:hover {
+    color: #ffffff;
+} 
+
+.header-content-wrapper > .right-btn-column > .fa-magnifying-glass {
+    cursor: pointer;
+    color: #484a52;
+    font-size: 2em;
+    margin: 15px;
+    transition: 0.5s;
+}
+
+.header-content-wrapper > .right-btn-column > .fa-magnifying-glass:hover {
+    cursor: pointer;
+    color: #ffffff;
+    font-size: 2em;
+    margin: 15px;
+}
+
+

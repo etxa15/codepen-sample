@@ -1,0 +1,26 @@
+.footer-wrapper {    
+    background-color: #36383F;
+    border-top: 1px solid #ccc;
+    border-bottom: 1px solid #ccc;
+}
+
+.footer-wrapper > .footer-items {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    text-align: center;
+}
+
+.footer-wrapper > .footer-items > a{
+    padding: 10px;
+    font-size: 1.5em;
+    text-decoration: none;
+    letter-spacing: -1px;
+    color: #fff;
+    border-right: 1px solid #fff;
+    transition: 0.5ms;
+}
+
+.footer-wrapper > .footer-items > a:hover {
+    color: #4BCE79;
+}
+

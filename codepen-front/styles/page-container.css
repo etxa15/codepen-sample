@@ -1,0 +1,80 @@
+.page-container-wrapper {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    background-image: linear-gradient(to right, #3b3b3b , #070707);
+}
+
+.page-container-wrapper > .left-wrapper {
+    padding: 40px;
+}
+
+.page-container-wrapper > .left-wrapper > .text-wrapper {
+    padding: 40px;
+    color: #b3b3b3;
+    font-family: 'Roboto Condensed';
+}
+
+.page-container-wrapper > .left-wrapper > .text-wrapper > h1, h3 {
+    font-size: 2em;
+    font-weight: 200;
+}
+
+.page-container-wrapper > .left-wrapper > .text-wrapper > h1 > b{
+    color: #fff;
+} 
+
+.page-container-wrapper > .left-wrapper > .btn-wrapper {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
+
+.page-container-wrapper > .left-wrapper > .btn-wrapper > .btn-container {
+    font-size: 2em;
+    padding: 15px;
+    cursor: pointer;
+    background-color: rgb(0, 0, 0);
+    border: none;
+    border-radius: 5px;
+    color: #fff;
+    transition: 0.5ms;
+}
+
+.page-container-wrapper > .left-wrapper > .btn-wrapper > .btn-container:hover {
+    color: #4BCE79;
+}
+
+.page-container-wrapper > .left-wrapper > .btn-wrapper > .btn-container:first-child {
+    cursor: pointer;
+    background-color: #4BCE79;
+    color: #000;
+    border: none;
+    border-radius: 5px;
+    transition: 0.5ms;
+}
+
+.page-container-wrapper > .left-wrapper > .btn-wrapper > .btn-container:first-child:hover {
+    color: #fff;
+}
+
+.page-container-wrapper > .right-wrapper {
+    margin-top: 30px;
+}
+
+.page-container-wrapper > .right-wrapper > .right-text {
+    margin-left: 20px;
+    margin-bottom: 2px;
+    font-size: 1.2em;
+    color: #fff;
+}
+
+.page-container-wrapper > .right-wrapper > .right-text::after {
+    content: ' CodePen Projects!';
+    color: #78DAFD;
+}
+
+.page-container-wrapper > .right-wrapper > .right-image > img {
+    display: block;
+    width: 100%;
+}
